@@ -23,28 +23,21 @@
     width: 100px;
     border-radius: 10px;
     border: none;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 5px 10px;
+    cursor: pointer;
+    font-weight: 600;
     
 }
 
 .navbar2 input{
     height: 40px;
-    width: 200px;
+    width: 400px;
     border-radius: 10px;
     border: none;
+    margin: 0px 10px 5px 10px;
     text-align: center;
 }
 
-.navEsquerda{
-    display: flex;
-    
-    
-}
-
-.navDireita{
-    display: flex;
-    
-}
 
 
 .neon {
@@ -68,4 +61,12 @@
           0 0 46px rgba(0, 123, 255, .7),
           0 0 86px rgba(0, 123, 255, .7);
       }
+}
+
+.cards{
+    background-color: #F3F3F3;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
