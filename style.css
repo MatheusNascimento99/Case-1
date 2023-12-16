@@ -4,20 +4,23 @@
     box-sizing: 0px;
 }
 
+/* espaçamento topo */
 .top1{
     background-color: black;
     height: 50px
 }
 
+/* navbar montagem */
 .navbar2{
     background-color: #4485f3;
     height: 80px;
     display: flex;
     justify-content: space-around;
-    align-items: end;
+    align-items: flex-end
     
 }
 
+/* navbar botões */
 .navbar2 button{
     height: 40px;
     width: 100px;
@@ -29,6 +32,7 @@
     
 }
 
+/* navbar input de pesquisa */
 .navbar2 input{
     height: 40px;
     width: 400px;
@@ -39,7 +43,7 @@
 }
 
 
-
+/* titulo neon */
 .neon {
     text-align: center;
     background-color: black;
@@ -63,10 +67,127 @@
       }
 }
 
+/* Cards */
 .cards{
     background-color: #F3F3F3;
     height: 500px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    
+}
+.cards img{
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.cards img:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    height: 510px;
+    width: 235px;
+}
+
+.containerCard{
+    padding: 30px;
+
+    background-color: #F3F3F3;
+}
+
+.containerCard h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-left: 85px;
+}
+
+
+
+
+
+/* Segunda div de Cards */
+.cards2{
+    background-color: #F3F3F3;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.cards2 img{
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.cards2 img:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    height: 510px;
+    width: 235px;
+}
+
+.containerCard2{
+    padding: 30px;
+
+    background-color: #F3F3F3;
+}
+
+.containerCard2 h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-left: 85px;
+}
+
+/* Div Categorias */
+
+.category{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #141414;
+}
+
+.group{
+    justify-content: space-around;
+    display: flex;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+
+.group img{
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+
+.group img:hover{
+    cursor: pointer;
+    border: 10px solid #136497;
+    border-radius: 50%;
+}
+
+
+.titleGroup{
+    text-align: center;
+}
+
+.category h3{
+    color: #F3F3F3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px; 
+}
+
+/* footer */
+.footer{
+    background-color: #141414;
+    
+}
+
+.footer h4{
+    color: #F3F3F3;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
 }
