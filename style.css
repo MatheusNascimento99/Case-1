@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+.top1{
+    background-color: black;
+    height: 50px
+}
+
+.navbar2{
+    background-color: #4485f3;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    
+}
+
+.navbar2 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+.navbar2 input{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.navEsquerda{
+    display: flex;
+    
+    
+}
+
+.navDireita{
+    display: flex;
+    
+}
+
+
+.neon {
+    text-align: center;
+    background-color: black;
+    animation: neonAnim 0.3s alternate-reverse infinite;
+    color: #007BFF;
+    font-family: Cursive;
+    font-size: 66px;
+}
+@keyframes neonAnim {
+    from {
+        text-shadow:
+          0 0 36px rgba(0, 123, 255, .7),
+          0 0 66px rgba(0, 123, 255, .7),
+          0 0 126px rgba(0, 123, 255, .7);
+      }
+      to {
+        text-shadow:
+          0 0 31px rgba(0, 123, 255, .7),
+          0 0 46px rgba(0, 123, 255, .7),
+          0 0 86px rgba(0, 123, 255, .7);
+      }
+}
