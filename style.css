@@ -153,12 +153,14 @@
     display: flex;
     grid-auto-flow: column;
     text-align: center;
+    margin-bottom: 35px;
 }
 
 
 .group img{
     transition: all .5s;
     border: 10px solid transparent;
+    border-radius: 50px;
 }
 
 .group img:hover{
@@ -170,6 +172,12 @@
 
 .titleGroup{
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.group h2{
+    color: yellow;
 }
 
 .category h3{
