@@ -22,15 +22,25 @@
 
 /* navbar botões */
 .navbar2 button{
-    height: 40px;
-    width: 100px;
+    font-size: 16px;
+    height: 50px;
+    width: 110px;
     border-radius: 10px;
     border: none;
     margin: 0px 10px 5px 10px;
     cursor: pointer;
     font-weight: 600;
+}
+.navbar2 button:hover{
+    color: #F3F3F3;
+    background-color: #141414;
+    cursor: pointer;
+    border: 2px solid #F3F3F3;
+    border-radius: 10px;
+    opacity: 0.7;
     
 }
+
 
 /* navbar input de pesquisa */
 .navbar2 input{
@@ -50,7 +60,7 @@
     animation: neonAnim 0.3s alternate-reverse infinite;
     color: #007BFF;
     font-family: Cursive;
-    font-size: 66px;
+    font-size: 50px;
 }
 @keyframes neonAnim {
     from {
@@ -184,6 +194,11 @@
     color: #F3F3F3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px; 
+}
+
+/* informações de pgto */
+#pgto img{
+    width: 100%;
 }
 
 /* footer */
