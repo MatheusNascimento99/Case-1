@@ -4,10 +4,57 @@
     box-sizing: 0px;
 }
 
+#myBtn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: black;
+    border: 2px solid;
+    background-image: radial-gradient(circle at 81.28% 5.32%, #0099f4 0, #2d94f4 3.33%, #5990f2 6.67%,
+     #768bee 10%, #8e85e9 13.33%, #a180e1 16.67%, #b37ad8 20%, #c174ce 23.33%, #ce6fc3 26.67%,
+      #d86ab7 30%, #e067aa 33.33%, #e6649d 36.67%, #ea638f 40%, #ec6382 43.33%, #ec6575 46.67%,
+       #ea6868 50%, #e76c5c 53.33%, #e27150 56.67%, #db7646 60%, #d37b3c 63.33%, #cb8034 66.67%,
+        #c1852c 70%, #b68a27 73.33%, #ab8f25 76.67%, #9e9325 80%, #929729 83.33%, #849b2f 86.67%,
+         #759e37 90%, #65a041 93.33%, #53a34c 96.67%, #3da458 100%);
+    
+}
+
+#myBtn:hover{
+    color: white;
+    background-image: radial-gradient(circle at 81.28% 5.32%, #ff8ea0 0, #ff948d 3.33%, #ff9a7c 6.67%, 
+    #ffa16b 10%, #ffa95c 13.33%, #ffb14d 16.67%, #ffb941 20%, #ffc136 23.33%, #ffc82e 26.67%,
+     #efcf2b 30%, #dcd52e 33.33%, #c9da35 36.67%, #b4df41 40%, #9ee34f 43.33%, #85e75e 46.67%, 
+     #68ea6f 50%, #3eed81 53.33%, #00ef94 56.67%, #00f0a8 60%, #00f2bc 63.33%, #00f2d0 66.67%,
+      #00f3e5 70%, #00f3f8 73.33%, #00f2ff 76.67%, #00f1ff 80%, #00f0ff 83.33%, #00eeff 86.67%, 
+      #00ebff 90%, #00e8ff 93.33%, #00e3ff 96.67%, #00dfff 100%);
+}
+
+.btModal {
+    position: fixed !important;
+    margin-top: 12%;
+    margin-left: 5%;
+    animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
 
 /* Modal Content */
 .modal-content {
-    position: relative;
+    position: fixed !important;
     background-image: radial-gradient(circle at 85.36% -11.24%, #00b5dd 0, #00b5f4 3.33%, #00b4ff 6.67%,
             #00b3ff 10%, #00b1ff 13.33%, #00aeff 16.67%, #00aaff 20%, #00a5ff 23.33%, #009fff 26.67%,
             #0097ff 30%, #008dff 33.33%, #0082ff 36.67%, #7774ff 40%, #aa64ff 43.33%, #cf51ff 46.67%,
@@ -139,6 +186,10 @@
     font-size: 50px;
 }
 
+hr{
+    color:#c0f9ef;
+}
+
 @keyframes neonAnim {
     from {
         text-shadow:
@@ -157,7 +208,11 @@
 
 /* Cards */
 .cards {
-    background-color: #F3F3F3;
+    background-image: radial-gradient(circle at 56.16% 120.44%, #ffe7cc 0, #ffe8ca 3.33%, #ffeac8 6.67%, #ffecc8 10%, 
+    #faedc8 13.33%, #f4efc8 16.67%, #eef1ca 20%, #e8f2cc 23.33%, #e2f4cf 26.67%, #ddf5d2 30%, #d7f6d6 33.33%,
+     #d1f7db 36.67%, #ccf8df 40%, #c7f8e4 43.33%, #c3f9ea 46.67%, #c0f9ef 50%, #bdf9f4 53.33%, #bcf9f9 56.67%,
+      #bbf8fe 60%, #bcf8ff 63.33%, #bdf7ff 66.67%, #c0f6ff 70%, #c3f5ff 73.33%, #c8f4ff 76.67%, #cdf2ff 80%,
+       #d3f1ff 83.33%, #d9efff 86.67%, #e0edff 90%, #e7ecff 93.33%, #edeaff 96.67%, #f4e8ff 100%);
     height: 500px;
     display: flex;
     justify-content: space-around;
@@ -178,9 +233,8 @@
 }
 
 .containerCard {
-    padding: 30px;
-
-    background-color: #F3F3F3;
+    color: #91ebda;
+    background-color: #141414;
 }
 
 .containerCard h3 {
@@ -195,7 +249,12 @@
 
 /* Segunda div de Cards */
 .cards2 {
-    background-color: #F3F3F3;
+    background-image: radial-gradient(circle at 43.84% -20.44%, #ffe7cc 0, #ffe8ca 3.33%, #ffeac8 6.67%,
+     #ffecc8 10%, #faedc8 13.33%, #f4efc8 16.67%, #eef1ca 20%, #e8f2cc 23.33%, #e2f4cf 26.67%,
+      #ddf5d2 30%, #d7f6d6 33.33%, #d1f7db 36.67%, #ccf8df 40%, #c7f8e4 43.33%, #c3f9ea 46.67%,
+       #c0f9ef 50%, #bdf9f4 53.33%, #bcf9f9 56.67%, #bbf8fe 60%, #bcf8ff 63.33%, #bdf7ff 66.67%,
+        #c0f6ff 70%, #c3f5ff 73.33%, #c8f4ff 76.67%, #cdf2ff 80%, #d3f1ff 83.33%, #d9efff 86.67%,
+         #e0edff 90%, #e7ecff 93.33%, #edeaff 96.67%, #f4e8ff 100%);
     height: 500px;
     display: flex;
     justify-content: space-around;
@@ -216,9 +275,8 @@
 }
 
 .containerCard2 {
-    padding: 30px;
-
-    background-color: #F3F3F3;
+    color: #91ebda;
+    background-color: #141414;
 }
 
 .containerCard2 h3 {
@@ -254,7 +312,7 @@
 
 .group img:hover {
     cursor: pointer;
-    border: 10px solid #136497;
+    border: 10px solid #91ebda;;
     border-radius: 50%;
 }
 
@@ -270,7 +328,7 @@
 }
 
 .category h3 {
-    color: #F3F3F3;
+    color: #91ebda;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
 }
@@ -287,7 +345,7 @@
 }
 
 .footer h4 {
-    color: #F3F3F3;
+    color: #91ebda;
     text-align: center;
     margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
