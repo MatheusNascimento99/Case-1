@@ -23,3 +23,13 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+document.querySelector('.form').addEventListener('submit', function () {
+    // Adiciona um pequeno atraso para garantir que o formulário seja enviado antes do recarregamento
+    setTimeout(function () {
+        window.location.reload();
+        alert('Informações recebidas! Breve entraremos em contato!');
+        
+    }, 600);
+});
+
