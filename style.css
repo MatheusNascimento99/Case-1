@@ -74,10 +74,14 @@
 }
 
 .close {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bolder;
-    margin-left: 92%;
+    margin-left: 93%;
     cursor: pointer;
+    border: 2px solid;
+    padding: 1px;
+    border-radius: 5px;
+    
 }
 
 .form {
