@@ -8,9 +8,39 @@
   </head>
 
   <body>
+    <!-- espaçamento superior -->
     <div class="top1">
-      <!-- espaçamento superior -->
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn">CONTRATAMOS BARTENDER'S</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <form class="form" action="https://api.sheetmonkey.io/form/3cAhq9aAKAYDpFzxXnTRGy" method="post">
+            <h3>Venha trabalhar com a gente!</h3>
+            <h4>Estamos contratando bartenders para festas e eventos diversos. Conte-nos sobre você!</h4>
+            <input id="iptNome" placeholder="Nome" type="text" name="nome" id="nome" required>
+            <br><br>
+            
+            <input placeholder="Telefone" type="text" name="telefone" id="telefone" required>
+            <br><br>
+            
+            <input placeholder="E-mail" type="text" name="email" id="email" required>
+            <br><br>
+             
+            <br>
+            <textarea placeholder="Conte um pouco das suas experiências na área..." name="experiencia" id="exp" cols="45" rows="17"></textarea required>
+            <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date" />
+            <input class="bt" type="submit" value="Enviar">
+
+          </form>
+        </div>
+      </div>
     </div>
+    <!-- Navbar -->
     <nav class="navbar2">
       <div>
         <button>Todas as Categorias</button>
@@ -76,7 +106,7 @@
         </div>
       </div>
       <div id="pgto">
-        <img src="./assets/pagamento/pgto.JPG" alt="">
+        <img src="./assets/pagamento/pgto.JPG" alt="" />
       </div>
 
       <footer class="footer">

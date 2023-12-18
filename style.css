@@ -1,27 +1,102 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: 0px;
 }
 
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-image: radial-gradient(circle at 85.36% -11.24%, #00b5dd 0, #00b5f4 3.33%, #00b4ff 6.67%,
+            #00b3ff 10%, #00b1ff 13.33%, #00aeff 16.67%, #00aaff 20%, #00a5ff 23.33%, #009fff 26.67%,
+            #0097ff 30%, #008dff 33.33%, #0082ff 36.67%, #7774ff 40%, #aa64ff 43.33%, #cf51ff 46.67%,
+            #eb38ff 50%, #ff07e8 53.33%, #ff00d1 56.67%, #ff00b8 60%, #ff009f 63.33%, #ff0086 66.67%,
+            #ff006d 70%, #ff0055 73.33%, #ff003d 76.67%, #ff1221 80%, #ff3900 83.33%, #ff5000 86.67%,
+            #f46100 90%, #e47000 93.33%, #d17c00 96.67%, #bd8600 100%);
+    margin: auto;
+    border-radius: 20px;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    height: 610px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.close{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 92%;
+    cursor: pointer;
+}
+
+.form{
+    text-align: center;
+}
+
+.form h3{
+    font-size: 40px;
+}
+
+.form h4{
+    font-size:25px ;
+}
+
+.form input{
+    text-align: center;
+}
+
+#iptNome{
+    margin-top: 15px;
+}
+
+.bt{
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    width: 15%;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    background-color: #141414;
+    color: #F3F3F3;
+}
+
+
+/* Add Animation */
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
 /* espaçamento topo */
-.top1{
+.top1 {
     background-color: black;
     height: 50px
 }
 
 /* navbar montagem */
-.navbar2{
+.navbar2 {
     background-color: #4485f3;
     height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end
-    
 }
 
 /* navbar botões */
-.navbar2 button{
+.navbar2 button {
     font-size: 16px;
     height: 50px;
     width: 110px;
@@ -31,19 +106,20 @@
     cursor: pointer;
     font-weight: 600;
 }
-.navbar2 button:hover{
+
+.navbar2 button:hover {
     color: #F3F3F3;
     background-color: #141414;
     cursor: pointer;
     border: 2px solid #F3F3F3;
     border-radius: 10px;
     opacity: 0.7;
-    
+
 }
 
 
 /* navbar input de pesquisa */
-.navbar2 input{
+.navbar2 input {
     height: 40px;
     width: 400px;
     border-radius: 10px;
@@ -62,49 +138,52 @@
     font-family: Cursive;
     font-size: 50px;
 }
+
 @keyframes neonAnim {
     from {
         text-shadow:
-          0 0 36px rgba(0, 123, 255, .7),
-          0 0 66px rgba(0, 123, 255, .7),
-          0 0 126px rgba(0, 123, 255, .7);
-      }
-      to {
+            0 0 36px rgba(0, 123, 255, .7),
+            0 0 66px rgba(0, 123, 255, .7),
+            0 0 126px rgba(0, 123, 255, .7);
+    }
+
+    to {
         text-shadow:
-          0 0 31px rgba(0, 123, 255, .7),
-          0 0 46px rgba(0, 123, 255, .7),
-          0 0 86px rgba(0, 123, 255, .7);
-      }
+            0 0 31px rgba(0, 123, 255, .7),
+            0 0 46px rgba(0, 123, 255, .7),
+            0 0 86px rgba(0, 123, 255, .7);
+    }
 }
 
 /* Cards */
-.cards{
+.cards {
     background-color: #F3F3F3;
     height: 500px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    
+
 }
-.cards img{
+
+.cards img {
     transition: all 0.2s;
     cursor: pointer;
 }
 
-.cards img:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+.cards img:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
     height: 510px;
     width: 235px;
 }
 
-.containerCard{
+.containerCard {
     padding: 30px;
 
     background-color: #F3F3F3;
 }
 
-.containerCard h3{
+.containerCard h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
     margin-left: 85px;
@@ -115,34 +194,34 @@
 
 
 /* Segunda div de Cards */
-.cards2{
+.cards2 {
     background-color: #F3F3F3;
     height: 500px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    
+
 }
 
-.cards2 img{
+.cards2 img {
     transition: all 0.2s;
     cursor: pointer;
 }
 
-.cards2 img:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+.cards2 img:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
     height: 510px;
     width: 235px;
 }
 
-.containerCard2{
+.containerCard2 {
     padding: 30px;
 
     background-color: #F3F3F3;
 }
 
-.containerCard2 h3{
+.containerCard2 h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
     margin-left: 85px;
@@ -150,15 +229,15 @@
 
 /* Div Categorias */
 
-.category{
+.category {
     height: 500px;
     display: flex;
     flex-direction: column;
-    
+
     background-color: #141414;
 }
 
-.group{
+.group {
     justify-content: space-around;
     display: flex;
     grid-auto-flow: column;
@@ -167,47 +246,47 @@
 }
 
 
-.group img{
+.group img {
     transition: all .5s;
     border: 10px solid transparent;
     border-radius: 50px;
 }
 
-.group img:hover{
+.group img:hover {
     cursor: pointer;
     border: 10px solid #136497;
     border-radius: 50%;
 }
 
 
-.titleGroup{
+.titleGroup {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 10px;
 }
 
-.group h2{
+.group h2 {
     color: yellow;
 }
 
-.category h3{
+.category h3 {
     color: #F3F3F3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px; 
+    font-size: 50px;
 }
 
 /* informações de pgto */
-#pgto img{
+#pgto img {
     width: 100%;
 }
 
 /* footer */
-.footer{
+.footer {
     background-color: #141414;
-    
+
 }
 
-.footer h4{
+.footer h4 {
     color: #F3F3F3;
     text-align: center;
     margin: 20px;
