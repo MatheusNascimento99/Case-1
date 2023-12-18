@@ -15,6 +15,12 @@ Na página, trabalhei em cima do botão "CONTRATAMOS BARTENDERS" para além de d
 Outro botão que dei uma atenção especial foi o de "Lançamentos". Nele, coloquei as cores alterando e uma movimentação leve superior/inferior, pois como e-commerce, temos que vender e lançamento é sempre uma boa oportunidade! :gift: :stuck_out_tongue_closed_eyes: :fireworks:   
 ### Cadastro das informações
 Por fim, para cadastrar as informações enviadas pelos usuários, usei a tag form conectada a uma planilha do google, o serviço chama-se [Sheet Monkey](https://www.sheetmonkey.io/pt-br), é amplamente utilziado e simples, indico fortemente.
+## Links Hospedados
+Dá um confere lá pessoal, tá show!
+<br>
+https://case-1-teste.netlify.app/
+<br>
+https://case-1.vercel.app/
 
 ## Testes da página
 Ínicio da página
